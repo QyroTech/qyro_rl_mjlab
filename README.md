@@ -1,14 +1,14 @@
-# PrimeBot RL Mjlab
+# Qyro RL Mjlab
 
 
 ## ✳️ Overview
-PrimeBot RL Mjlab is a reinforcement learning project built upon the
-[mjlab](https://github.com/PrimebotTech/mjlab), using MuJoCo as its
+Qyro RL Mjlab is a reinforcement learning project built upon the
+[mjlab](https://github.com/QyroTech/mjlab), using MuJoCo as its
 physics simulation backend, currently supporting the Q1 humanoid robot.
 
 > [!IMPORTANT]
 > This project depends on our maintained fork of mjlab:
-> [https://github.com/PrimebotTech/mjlab](https://github.com/PrimebotTech/mjlab).
+> [https://github.com/QyroTech/mjlab](https://github.com/QyroTech/mjlab).
 > Please install mjlab from this repository (see [setup.md](doc/setup_en.md)).
 
 Mjlab combines [Isaac Lab](https://github.com/isaac-sim/IsaacLab)'s proven API
@@ -103,7 +103,7 @@ Available tasks:
 
 This project would not be possible without the contributions of the following repositories:
 
-- [mjlab](https://github.com/PrimebotTech/mjlab): training and execution framework
+- [mjlab](https://github.com/QyroTech/mjlab): training and execution framework
 - [whole_body_tracking](https://github.com/HybridRobotics/whole_body_tracking.git): versatile humanoid motion tracking framework
 - [rsl_rl](https://github.com/leggedrobotics/rsl_rl.git): reinforcement learning algorithm implementation
 - [mujoco_warp](https://github.com/google-deepmind/mujoco_warp.git): GPU-accelerated rendering and simulation interface
