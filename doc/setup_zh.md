@@ -35,13 +35,13 @@ source ~/.bashrc
 使用以下命令创建虚拟环境：
 
 ```bash
-conda create -n primebot_rl_mjlab python=3.11
+conda create -n qyro_rl_mjlab python=3.11
 ```
 
 ### 1.3 激活虚拟环境
 
 ```bash
-conda activate primebot_rl_mjlab
+conda activate qyro_rl_mjlab
 ```
 
 ---
@@ -53,7 +53,7 @@ conda activate primebot_rl_mjlab
 通过 Git 克隆仓库：
 
 ```bash
-git clone https://github.com/your-org/primebot_rl_mjlab.git
+git clone https://github.com/QyroTech/qyro_rl_mjlab.git
 ```
 
 ### 2.2 安装依赖
@@ -64,8 +64,8 @@ git clone https://github.com/your-org/primebot_rl_mjlab.git
 通过 Git 克隆仓库：
 
 ```bash
-cd primebot_rl_mjlab
-git clone https://github.com/PrimebotTech/mjlab
+cd qyro_rl_mjlab
+git clone https://github.com/QyroTech/mjlab
 ```
 
 安装 mjlab

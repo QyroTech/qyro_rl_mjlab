@@ -1,14 +1,14 @@
-# PrimeBot RL Mjlab
+# Qyro RL Mjlab
 
 
 ## ✳️ 概述
 
-PrimeBot RL Mjlab 是一个基于 [mjlab](https://github.com/PrimebotTech/mjlab) 构建的强化学习项目，
+Qyro RL Mjlab 是一个基于 [mjlab](https://github.com/QyroTech/mjlab) 构建的强化学习项目，
 使用 MuJoCo 作为物理仿真后端，当前支持 Q1 人形机器人。
 
 > [!IMPORTANT]
 > 本项目依赖我们维护的 mjlab 分支：
-> [https://github.com/PrimebotTech/mjlab](https://github.com/PrimebotTech/mjlab)。
+> [https://github.com/QyroTech/mjlab](https://github.com/QyroTech/mjlab)。
 > 请从该仓库安装 mjlab（详见 [setup.md](doc/setup_zh.md)）。
 
 Mjlab 结合了 [Isaac Lab](https://github.com/isaac-sim/IsaacLab) 的成熟高层 API 与
@@ -102,7 +102,7 @@ python scripts/play.py Q1-Tracking-No-State-Estimation --motion_file=src/assets/
 
 本仓库开发离不开以下开源项目的支持与贡献，特此感谢：
 
-- [mjlab](https://github.com/PrimebotTech/mjlab): 构建训练与运行代码的基础。
+- [mjlab](https://github.com/QyroTech/mjlab): 构建训练与运行代码的基础。
 - [whole_body_tracking](https://github.com/HybridRobotics/whole_body_tracking.git): 用于动作跟踪的通用人形机器人控制框架。
 - [rsl_rl](https://github.com/leggedrobotics/rsl_rl.git): 强化学习算法实现。
 - [mujoco_warp](https://github.com/google-deepmind/mujoco_warp.git): 提供 GPU 加速渲染与仿真接口。

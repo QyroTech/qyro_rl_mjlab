@@ -35,13 +35,13 @@ source ~/.bashrc
 Use the following command to create a virtual environment:
 
 ```bash
-conda create -n primebot_rl_mjlab python=3.11
+conda create -n qyro_rl_mjlab python=3.11
 ```
 
 ### 1.3 Activate the Virtual Environment
 
 ```bash
-conda activate primebot_rl_mjlab
+conda activate qyro_rl_mjlab
 ```
 
 ---
@@ -53,7 +53,7 @@ conda activate primebot_rl_mjlab
 Clone the repository using Git:
 
 ```bash
-git clone https://github.com/your-org/primebot_rl_mjlab.git
+git clone https://github.com/QyroTech/qyro_rl_mjlab.git
 ```
 
 ### 2.2 Install Dependencies
@@ -64,8 +64,8 @@ Navigate to the project root directory and install them with:
 Clone the repository using Git:
 
 ```bash
-cd primebot_rl_mjlab
-git clone https://github.com/PrimebotTech/mjlab
+cd qyro_rl_mjlab
+git clone https://github.com/QyroTech/mjlab
 ```
 
 Install mjlab

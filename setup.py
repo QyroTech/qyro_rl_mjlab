@@ -1,4 +1,4 @@
-"""Installation script for the 'primebot_rl_mjlab' python package."""
+"""Installation script for the 'Qyro_rl_mjlab' python package."""
 
 from setuptools import setup, find_packages
 
@@ -13,7 +13,7 @@ INSTALL_REQUIRES = [
 
 # Installation operation
 setup(
-    name="primebot_rl_mjlab",
+    name="Qyro_rl_mjlab",
     packages=["src"],
     version="0.0.1",
     install_requires=INSTALL_REQUIRES,
